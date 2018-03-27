@@ -31,4 +31,14 @@ class Links extends ComponentBase {
 			],
 		];
 	}
+
+	public function onRun() {
+		$links = [
+			$this->property('link1'),
+			$this->property('link2'),
+			$this->property('link3'),
+		];
+
+		$this->page['links'] = $links;
+	}
 }
