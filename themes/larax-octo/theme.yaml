@@ -3,3 +3,13 @@ description: 'Simple Theme'
 author: 'Ken Vilar'
 homepage: 'https://github.com/kenvilar/larax-octo'
 code: larax-octo
+form:
+    fields:
+        site_name:
+            label: Theme Name
+            comment: A global theme name
+            default: Larax-Octo
+        site_description:
+            label: Theme Description
+            comment: A global theme description
+            default: Larax-Octo, laravel october cms simple theme
