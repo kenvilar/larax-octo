@@ -12,4 +12,4 @@ form:
         site_description:
             label: Theme Description
             comment: A global theme description
-            default: Larax-Octo, laravel october cms simple theme
+            default: Larax-Octo, A Laravel October CMS Simple Theme
