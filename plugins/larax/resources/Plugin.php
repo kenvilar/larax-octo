@@ -7,7 +7,7 @@ use System\Classes\PluginBase;
 class Plugin extends PluginBase {
 	public function pluginDetails() {
 		return [
-			'name'        => 'Larax',
+			'name'        => 'Larax Plugin',
 			'description' => 'Larax-Octo custom plugin',
 			'author'      => 'Ken Vilar',
 			'icon'        => 'icon-leaf'
