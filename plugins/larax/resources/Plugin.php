@@ -2,7 +2,9 @@
 
 namespace Larax\Resources;
 
-class Plugin {
+use System\Classes\PluginBase;
+
+class Plugin extends PluginBase {
 	public function pluginDetails() {
 		return [
 			'name' => 'Larax',
