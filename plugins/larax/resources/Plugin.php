@@ -15,6 +15,8 @@ class Plugin extends PluginBase {
 	}
 
 	public function registerComponents() {
-		return parent::registerComponents();
+		return [
+			'\Larax\Resources\Components\Links' => 'resourcesLinks',
+		];
 	}
 }
