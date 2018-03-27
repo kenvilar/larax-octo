@@ -1,0 +1,32 @@
+==
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Larax-Octo - {{ this.page.title }}</title>
+        <meta name="description" content="{{ this.page.meta_description }}">
+        <link rel="stylesheet" href="{{ 'assets/css/sandstone.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/theme.css'|theme }}">
+        {% styles %}
+    </head>
+    <body>
+
+        <div style="max-width: 1403px; margin: 0 auto">
+            <!-- Header -->
+            <header id="layout-header">
+                {% partial 'site/header' %}
+            </header>
+
+            <div  class="container">
+                {% page %}
+            </div>
+
+            <!-- Footer -->
+            <footer id="layout-footer">
+                {% partial 'site/footer' %}
+            </footer>
+        </div>
+
+        <!-- Scripts -->
+        {% partial 'site/scripts' %}
+    </body>
+</html>
