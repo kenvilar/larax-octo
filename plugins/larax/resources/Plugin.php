@@ -13,4 +13,8 @@ class Plugin extends PluginBase {
 			'icon' => 'icon-leaf'
 		];
 	}
+
+	public function registerComponents() {
+		return parent::registerComponents();
+	}
 }
